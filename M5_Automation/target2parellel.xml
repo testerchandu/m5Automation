@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="shoppers_stack.TC_01_Register"/>
+      <class name="shoppers_stack.TC_02_Login"/>
+       <class name="shoppers_stack.TC_03_Men"/>
+      <class name="shoppers_stack.Tc_04_Women"/>
+        <class name="shoppers_stack.TC_05_kids"/>
+         <class name="shoppers_stack.Tc_06_electronics"/>       
+           <class name="shoppers_stack.Tc_07_beauti"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
